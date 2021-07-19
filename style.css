@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  background: rgba(0, 0, 0);
+  justify-content: space-between;
+  color: white;
+  align-content: center;
+  padding: 10px;
+  position: sticky;
+  z-index: 2;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: url("indian-1717192_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover {
+  color: yellow;
+}
+main {
+  padding-top: 400px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+form {
+  padding-top: 20px;
+}
